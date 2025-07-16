@@ -14,8 +14,6 @@ const userUploadPixhost = new Map();
 
 const archiver = require("archiver") ;
 
-const whoiser = require('whoiser').default;
-
 const { URL } = require('url');
 
 const TelegramBot = require('node-telegram-bot-api');
